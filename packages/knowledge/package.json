@@ -1,0 +1,26 @@
+{
+  "name": "@Bell/knowledge",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "build": "tsc --noEmit && mkdir -p dist && cp src/schema.sql dist/schema.sql"
+  },
+  "dependencies": {
+    "@Bell/config": "workspace:*",
+    "@Bell/db": "workspace:*",
+    "@Bell/graph": "workspace:*",
+    "@anthropic-ai/sdk": "^0.30.0",
+    "@google/genai": "^2.30.0",
+    "openai": "^4.50.0",
+    "postgres": "^3.4.0",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@types/bun": "catalog:",
+    "typescript": "catalog:"
+  }
+}

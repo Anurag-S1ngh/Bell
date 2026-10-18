@@ -1,0 +1,10 @@
+{
+  "extends": "@Bell/config/tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "noUncheckedIndexedAccess": false,
+    "exactOptionalPropertyTypes": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  }
+}

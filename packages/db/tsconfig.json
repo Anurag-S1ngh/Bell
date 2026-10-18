@@ -1,0 +1,6 @@
+{
+  "extends": "@Bell/config/tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true
+  }
+}
