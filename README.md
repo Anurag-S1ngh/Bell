@@ -5,7 +5,11 @@ temporal graph, then answer questions with grounded citations.
 
 ## Demo video
 
-![Bell hackathon submission — 2:30 product demo with real app recording](video/out/HackathonSubmission.mp4)
+[![Bell hackathon submission — 2:30 product demo with real app recording](https://drive.google.com/thumbnail?id=16-YZgmmrIwgh5xvlj0nmCje9fR87Ilir&sz=w1280)](https://drive.google.com/file/d/16-YZgmmrIwgh5xvlj0nmCje9fR87Ilir/view?usp=sharing)
+
+_2:30 · 1920×1080 — problem, connectors (Slack + 700+ via Nango), real Ask →
+cited-answer recording, architecture with FalkorDB at the center, and SDK usage.
+[Watch on Google Drive](https://drive.google.com/file/d/16-YZgmmrIwgh5xvlj0nmCje9fR87Ilir/view?usp=sharing)_
 
 ## Quick start
 
